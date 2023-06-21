@@ -1,0 +1,92 @@
+
+/*  CSS for the Title of the page - SpaceX Information */
+h1 {
+  text-align: center;
+  color: #e7dbdb;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Date holder styling */
+
+.date-filter {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #c41111;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*  Style for the Searchable lists*/ 
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+/* The box holder for each description */
+li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(243, 238, 238, 0.1);
+}
+
+/* The alternating background colors for the list boxes*/
+
+li:nth-child(even) {
+  background-color: #F9CB9C; /* Orange */
+}
+
+li:nth-child(odd) {
+  background-color: #363030; /* Black */
+}
+
+li h2 {
+  margin-top: 0;
+  font-size: 20px;
+  color: #952966;
+}
+
+li p {
+  color: #030109;
+  
+}
+
+/* Search bar style */
+
+#search-input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 2px solid #FF69B4; /* Hot Pink */
+  border-radius: 5px;
+  outline: none;
+}
+
+#search-input:focus {
+  border-color: #6495ED; /* Cornflower Blue */
+}
+
+/* Styles for the back-to-top button */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #c80a0a;
+  border: none;
+  color: #FFF;
+  font-size: 16px;
+  cursor: pointer;
+  opacity: 4;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top.show {
+  opacity: 1;
+}
+
