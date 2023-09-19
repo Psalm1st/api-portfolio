@@ -122,6 +122,4 @@ This project was created by Psalm1st.
 
 
 
-
-
-PS: Insta@ simple_smilez
+PS: Insta [@simple_smilez](https://www.instagram.com/simple.smilez)
